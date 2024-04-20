@@ -1,9 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
-require("@nomicfoundation/hardhat-verify"); // new one for verifying contract
-// require("@nomiclabs/hardhat-waffle")
+require("@nomicfoundation/hardhat-verify");
 require("hardhat-gas-reporter")
 require("./tasks/block-number")
-// require("@nomiclabs/hardhat-etherscan")
 require("solidity-coverage")
 
 
